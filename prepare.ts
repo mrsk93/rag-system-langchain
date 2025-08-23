@@ -4,6 +4,7 @@ import { OpenAIEmbeddings } from "@langchain/openai";
 import { PineconeStore } from "@langchain/pinecone";
 import { Pinecone as PineconeClient } from "@pinecone-database/pinecone";
 import { Document } from "@langchain/core/documents";
+
 const embeddings = new OpenAIEmbeddings({
   model: "text-embedding-3-small"
 });
@@ -31,7 +32,7 @@ export async function indexTheDocument(filePath: string) {
         pageContent: chunk,
         metadata: doc[0]?.metadata,
     }));
-    
+
     await vectorStore.addDocuments(documents);
 
     console.log('Document indexed successfully');

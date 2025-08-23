@@ -9,6 +9,11 @@ bun install
 To run:
 
 ```bash
+bun run chat.ts
+```
+
+To feed vector embeddings:
+```bash
 bun run rag.ts
 ```
 
