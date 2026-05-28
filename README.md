@@ -1,4 +1,5 @@
 # basic-rag-system
+RAG CLI Agent built on LangGraph, Open AI Embedding, PineconeDB and Groq Api
 
 To install dependencies:
 
