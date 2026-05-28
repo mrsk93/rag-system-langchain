@@ -1,5 +1,5 @@
 # basic-rag-system
-RAG CLI Agent built on LangChain, Open AI Embedding, PineconeDB and Groq Api
+RAG CLI Agent built on LangChain, Llama 3.3 70B versatile, Open AI Embedding, PineconeDB and Groq Api
 
 To install dependencies:
 
